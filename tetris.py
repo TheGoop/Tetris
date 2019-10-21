@@ -70,7 +70,7 @@ def listOfShapes(): #method that returns a list of all shapes, for more organize
         [  False,  True, False ],
         [ False,  True,  False ]
     ]
-
+    #add any custom pieces here, like I did with the newPiece variable just remember to return it :)
     return [iPiece, jPiece, lPiece, oPiece, sPiece, tPiece, zPiece, newPiece]
 
 def newFallingPiece(data):
