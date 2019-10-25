@@ -1,8 +1,9 @@
 #################################################
 #Akshay Gupta
-#Robotics 1
-#Final Project
+#CMU 112
+#Tetris
 #Task Description: Create Tetris Game
+#https://www.cs.cmu.edu/~112n18/index.html
 #################################################
 
 from Tkinter import *
