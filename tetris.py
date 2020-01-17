@@ -67,12 +67,8 @@ def listOfShapes(): #method that returns a list of all shapes, for more organize
         [ False,  True,  True ]
     ]
 
-    newPiece = [
-        [  False,  True, False ],
-        [ False,  True,  False ]
-    ]
-    #add any custom pieces here, like I did with the newPiece variable just remember to return it :)
-    return [iPiece, jPiece, lPiece, oPiece, sPiece, tPiece, zPiece, newPiece]
+    #add any custom pieces above, just remember to return it in return statement :)
+    return [iPiece, jPiece, lPiece, oPiece, sPiece, tPiece, zPiece]
 
 def newFallingPiece(data):
     randomIndex = random.randint(0, len(data.tetrisShapes) - 1) #picks a random number out of the number of different shapes
